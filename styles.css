@@ -1,22 +1,28 @@
 body {
-    background-image: url('https://i.pinimg.com/originals/e9/f3/9b/e9f39bf032f944cb51a36a15dd4aae2e.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+
     font-family: sans-serif;
     font-size: 16px;
-    padding: 2rem;
+    margin: 0;
+    background-color: bisque ;
+}
+
+/* header {
+    position: absolute;
+} */
+
+#content {
+    margin: 0;
 }
 
 h1 {
     font-size: 4rem;
-    color: #d4af37;
 }
 
 h1, h2 {
+    color: #b79b48;
     font-family: 'Harry Potter', sans-serif;
     text-align: center;
-    padding: 1.5rem;
+    padding: 0rem 0rem 1rem 0rem;
 }
 
 h2 {
@@ -24,8 +30,8 @@ h2 {
 }
 
 a {
-    font-size: 20px;
-    color:skyblue;
+    font-size: 1.5rem;
+    color:#b79b48;
 }
 
 img {
@@ -34,28 +40,25 @@ img {
 
 #about {
     text-align: center;
-    padding: 0rem 3rem;
+    background-image: url('https://preview.redd.it/cxeimwflyo881.png?width=800&format=png&auto=webp&s=2160be26be2b962a1b9048c2e6236bbfe643c71c');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
 }
 
 #about-text {
-    background-color: rgba(256, 256, 256, 0.3);
-    padding: 2rem;
-    margin-bottom: 2rem;
+    
+    padding: 0rem 3rem 1rem 3rem;
+    color: white;
 }
 
 
 #harry {
     border-radius: 50%;
     width: 40vh;
+    margin-bottom: 4rem;
 }
 
-#appearances, #family {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
 
 #trio-in-deathly-hallows {
     width : 40vh;
@@ -63,12 +66,39 @@ img {
 }
 
 ul, ol {
-    color:gold;
+    color:#b79b48;
 }
 /* 
 ul {
     list-style: none;
 } */
+
+#appearances, #family {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#appearances ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#family {
+    background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/12/harry-potter-and-the-deathly-hallows-epilogue-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 #family-grid {
@@ -76,6 +106,10 @@ ul {
     grid-template:  repeat(4, 1fr) / repeat(2, 1fr);
     padding: 3rem;
     width: 50vh;
+}
+
+#family-grid p {
+    color: white;
 }
 
 .grid-item { 
